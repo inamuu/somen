@@ -8,7 +8,6 @@ import (
 	"github.com/spf13/cobra"
 )
 
-// myipCmd represents the myip command
 var myipCmd = &cobra.Command{
 	Use:   "myip",
 	Short: "Print my global ip address",
