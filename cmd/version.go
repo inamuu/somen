@@ -21,4 +21,6 @@ var versionCmd = &cobra.Command{
 
 func init() {
 	rootCmd.AddCommand(versionCmd)
+	//ToDo
+	//rootCmd.Flags().BoolP("version", "v", false, "Print version")
 }
