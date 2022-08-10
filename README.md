@@ -2,6 +2,27 @@
 
 SOMEN is a my BENRI(convenient) infra tool.
 
+## Usage
+
+```sh
+Somen is a infra tool
+
+Usage:
+  somen [command]
+
+Available Commands:
+  completion  Generate the autocompletion script for the specified shell
+  help        Help about any command
+  myip        Print my global ip address
+  version     Print th version number of somen
+
+Flags:
+  -h, --help   help for somen
+
+Use "somen [command] --help" for more information about a command.
+
+```
+
 ## How to develop
 ### Setup
 
