@@ -16,11 +16,16 @@ var ipinfoCmd = &cobra.Command{
 	Run: func(cmd *cobra.Command, args []string) {
 		ipaddr, _ := cmd.Flags().GetString("ip")
 		if ipaddr != "" {
-			fmt.Println("IP:", ipaddr)
+			checkip(ipaddr)
+			//fmt.Println("IP:", ip)
 		} else {
 			fmt.Println("Please type ip address as args")
 		}
 	},
+}
+
+func checkip(ipaddr string) {
+	fmt.Println(ipaddr)
 }
 
 func init() {
